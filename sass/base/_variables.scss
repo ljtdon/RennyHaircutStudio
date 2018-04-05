@@ -1,0 +1,51 @@
+// Media Queries
+$size_desktop:  801px;
+$size_tablet:   800px;
+$size_mobile:   600px;
+$size_mobile_small: 500px; 			/************ me */	
+$size_max: 1280px;
+
+
+// Grayscale - naming with lightness (from HSL) color value
+$gray_hsl10:    hsl(0,0,10);
+$gray_hsl30:    hsl(0,0,30);
+$gray_hsl50:    hsl(0,0,50);
+$gray_hsl70:    hsl(0,0,70);
+
+
+// typography
+$font_main: 'Roboto', sans-serif;
+$fontColor: $gray_hsl10;
+$fontRenny: 'Pacifico', cursive;
+
+// font colors
+$fontColor: #222;
+$rennyColor: #800080;
+$rennyColorTwo: #ff4dff;
+
+
+// background colors
+$nameColor: lightblue;
+$servicesColor: lightgreen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

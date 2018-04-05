@@ -1,0 +1,265 @@
+@import "base/_fonts";
+@import "base/_normalize";
+@import "base/_reset";
+@import "base/_variables";
+@import "layout/_mixins";
+@import "layout/_layout";
+@import "layout/_grid";
+
+
+
+img {
+	display: block;	
+	width: 100%;
+	height: auto;
+}
+.slide {
+	display: none;
+}
+
+
+.container {
+	max-width: $size_max;	
+	margin: 0 auto;
+	text-align: center;		
+}
+
+/* name section */
+.name {			
+	width: 100%;	
+
+	&__title {
+		font-family: $fontRenny;
+		color: $rennyColor;	
+		font-size: 12rem;
+		margin-bottom: 0;
+
+		@media only screen and (max-width: $size_mobile_small) {
+			font-size: 7.2rem;
+		}
+	}
+	&__description {
+		font-size: 3rem;
+		margin-top: -2rem;
+		color: $rennyColor;	
+
+		@media only screen and (max-width: $size_mobile_small) {
+			font-size: 1.8rem;
+		}
+	}
+			
+}
+
+.wrapper {
+	padding-top: 6rem;
+	padding-bottom: 8rem;
+}
+
+/* section two, services */
+
+.services {
+	background-color: #617083;
+	color: #fff;
+	
+
+	&__title {
+		font-size: 3rem;		
+		font-weight: 700;
+		letter-spacing: 1rem;
+		padding-bottom: 4rem;		
+
+		@media only screen and (max-width: $size_mobile_small) {
+			font-size: 2.4rem;
+		}
+	}
+	&__description {
+		font-size: 2rem;		
+		letter-spacing: 0.1rem;
+		padding-bottom: 6rem;		
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin: 0 auto;
+
+		@media only screen and (max-width: $size_mobile_small) {			
+			font-size: 1.8rem;
+			padding-bottom: 4rem;
+			width: 26.5rem;
+		}
+	}
+}
+
+
+.hairdo img {
+
+	@media only screen and (max-width: $size_tablet) {
+		width: 60%;					//30rem;
+		margin: 0 auto;
+		float: none;
+		padding-bottom: 10%;
+	}
+}
+
+
+/* section working time */
+
+.working {
+	background-color: beige;
+	font-weight: 700;
+	color: #663399; 		/// #663399;				//#b300b3; #800080;	#708090;
+	
+}
+
+.time {
+	text-align: right;
+	letter-spacing: 0.1rem;
+	padding-right: 5rem;
+	width: 20rem;
+	float: left;
+	font-size: 1.8rem;
+
+	@media only screen and (max-width: $size_mobile) {
+		padding-right: 2rem;
+		width: 15rem;
+		font-size: 1.6rem;
+	}
+}
+
+.time span {
+	padding-top: 2.9rem;
+	padding-bottom: 2.4rem;
+	display: inline-block;
+	height: 5rem;
+
+	@media only screen and (max-width: $size_mobile) {
+		padding-top: 2.4rem;
+	}
+	
+}
+
+.day span {
+	background-color: #c0c;				//#cc00cc; #e600e6						//#DA70D6;
+	border-radius: 50%;
+	padding: 1.9rem 1.2rem;
+	display: inline-block;
+	margin: 1rem;	
+	width: 6rem;
+	height: 6rem;
+	text-align: center;		
+
+	@media only screen and (max-width: $size_mobile) {
+		padding: 1.4rem 1.2rem;		
+		width: 5rem;
+		height: 5rem;
+	}
+}
+
+.day {	
+	text-align: left;
+	color: #fff;				//#faebf9;				//#f5d6f4; 						//#663399;
+	float: left;
+	width: 40rem;
+	padding-left: 2rem;
+
+	@media only screen and (max-width: $size_mobile) {
+		padding-left: 1rem;
+		width: 30rem;		
+	}
+
+}
+
+@media only screen and (max-width: $size_mobile_small) {
+	.day, .time {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		padding-bottom: 2rem;
+	}
+	.time {		
+		font-size: 1.8rem;
+		padding-bottom: 1.2rem;
+	}
+	.working-title {
+		padding-bottom: 1rem;
+		letter-spacing: 0.4rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.wrapper {
+		padding-bottom: 6rem;
+	}
+}
+
+
+.day-wrapper {
+	width: 60rem;
+	margin: 0 auto;
+
+	@media only screen and (max-width: $size_mobile) {
+		width: 45rem;
+	}
+
+	@media only screen and (max-width: $size_mobile_small) {
+		width: 100%;
+	}
+}
+
+/******** contact ********/
+
+.contact {
+	background-color: #6a6284;			//#846284;	//#4c5767;	//#a6b1d9;
+	color: #fff;
+}
+
+.contact-title {
+	padding-bottom: 3rem;
+}
+
+.contact-text {
+	text-align: left;
+	padding-left: 6rem;
+	padding-top: 3rem;		
+	font-size: 1.8rem;	
+
+	@media only screen and (max-width: $size_tablet) {
+		text-align: center;
+		padding-left: 0;
+		padding-top: 0;	
+		padding-bottom: 3rem;	
+		font-size: 1.6rem;	
+	}
+
+}
+
+.map {
+	width: 100%;
+	height: auto;
+	background-color: #eee;
+	
+	@media only screen and (max-width: $size_tablet) {
+		width: 50%;		
+		height: 50%;
+		margin: 0 auto;				
+	}	
+}
+
+.contact-container {
+	width: 60rem;							
+	margin: 0 auto;
+
+	@media only screen and (max-width: $size_tablet) {
+		width: 100%;
+	}
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

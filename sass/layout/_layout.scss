@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+	font-family: $font_main;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: $fontColor;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input, textarea {@include placeholder($gray_hsl70);}
+
+b, strong {font-weight: 700;}
+
+a {text-decoration: none;}
+
+.clearfix {@include clearfix();}
+
+/* positioning absolute el*/
+.pos-abs {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
