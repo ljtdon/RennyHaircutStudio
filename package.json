@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages"
   },
   "author": "ljt",
   "license": "ISC",
+  "homepage": "https://ljtdon.github.io/Renny_Haircut_Studio",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "jquery": "^3.2.1",
     "normalize.css": "^7.0.0"
   },
