@@ -8,7 +8,7 @@
   },
   "author": "ljt",
   "license": "ISC",
-  "homepage": "https://ljtdon.github.io/Renny_Haircut_Studio",
+  "homepage": "https://ljtdon.github.io/RennyHaircutStudio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "jquery": "^3.2.1",
